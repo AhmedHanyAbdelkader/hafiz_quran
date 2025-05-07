@@ -1,0 +1,56 @@
+{
+  "number": 109,
+  "name": {
+    "ar": "الكافرون"
+  },
+  "revelation_place": {
+    "ar": "مكية"
+  },
+  "verses_count": 6,
+  "words_count": 27,
+  "letters_count": 95,
+  "verses": [
+    {
+      "number": 1,
+      "juz": 30,
+      "page": 603,
+      "sajda": false,
+      "ar": "قُلۡ يَـٰٓأَيُّهَا ٱلۡكَٰفِرُونَ"
+    },
+    {
+      "number": 2,
+      "juz": 30,
+      "page": 603,
+      "sajda": false,
+      "ar": "لَآ أَعۡبُدُ مَا تَعۡبُدُونَ"
+    },
+    {
+      "number": 3,
+      "juz": 30,
+      "page": 603,
+      "sajda": false,
+      "ar": "وَلَآ أَنتُمۡ عَٰبِدُونَ مَآ أَعۡبُدُ"
+    },
+    {
+      "number": 4,
+      "juz": 30,
+      "page": 603,
+      "sajda": false,
+      "ar": "وَلَآ أَنَا۠ عَابِدٞ مَّا عَبَدتُّمۡ"
+    },
+    {
+      "number": 5,
+      "juz": 30,
+      "page": 603,
+      "sajda": false,
+      "ar": "وَلَآ أَنتُمۡ عَٰبِدُونَ مَآ أَعۡبُدُ"
+    },
+    {
+      "number": 6,
+      "juz": 30,
+      "page": 603,
+      "sajda": false,
+      "ar": "لَكُمۡ دِينُكُمۡ وَلِيَ دِينِ"
+    }
+  ]
+}

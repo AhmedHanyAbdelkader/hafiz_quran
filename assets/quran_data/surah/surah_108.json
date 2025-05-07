@@ -1,0 +1,35 @@
+{
+  "number": 108,
+  "name": {
+    "ar": "الكوثر"
+  },
+  "revelation_place": {
+    "ar": "مكية"
+  },
+  "verses_count": 3,
+  "words_count": 10,
+  "letters_count": 42,
+  "verses": [
+    {
+      "number": 1,
+      "juz": 30,
+      "page": 602,
+      "sajda": false,
+      "ar": "إِنَّآ أَعۡطَيۡنَٰكَ ٱلۡكَوۡثَرَ"
+    },
+    {
+      "number": 2,
+      "juz": 30,
+      "page": 602,
+      "sajda": false,
+      "ar": "فَصَلِّ لِرَبِّكَ وَٱنۡحَرۡ"
+    },
+    {
+      "number": 3,
+      "juz": 30,
+      "page": 602,
+      "sajda": false,
+      "ar": "إِنَّ شَانِئَكَ هُوَ ٱلۡأَبۡتَرُ"
+    }
+  ]
+}

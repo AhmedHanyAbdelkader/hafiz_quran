@@ -1,0 +1,49 @@
+{
+  "number": 113,
+  "name": {
+    "ar": "الفلق"
+  },
+  "revelation_place": {
+    "ar": "مكية"
+  },
+  "verses_count": 5,
+  "words_count": 23,
+  "letters_count": 71,
+  "verses": [
+    {
+      "number": 1,
+      "juz": 30,
+      "page": 604,
+      "sajda": false,
+      "ar": "قُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ"
+    },
+    {
+      "number": 2,
+      "juz": 30,
+      "page": 604,
+      "sajda": false,
+      "ar": "مِن شَرِّ مَا خَلَقَ"
+    },
+    {
+      "number": 3,
+      "juz": 30,
+      "page": 604,
+      "sajda": false,
+      "ar": "وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ"
+    },
+    {
+      "number": 4,
+      "juz": 30,
+      "page": 604,
+      "sajda": false,
+      "ar": "وَمِن شَرِّ ٱلنَّفَّـٰثَٰتِ فِي ٱلۡعُقَدِ"
+    },
+    {
+      "number": 5,
+      "juz": 30,
+      "page": 604,
+      "sajda": false,
+      "ar": "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ"
+    }
+  ]
+}

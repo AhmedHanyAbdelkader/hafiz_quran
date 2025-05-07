@@ -1,0 +1,42 @@
+{
+  "number": 106,
+  "name": {
+    "ar": "قريش"
+  },
+  "revelation_place": {
+    "ar": "مكية"
+  },
+  "verses_count": 4,
+  "words_count": 17,
+  "letters_count": 73,
+  "verses": [
+    {
+      "number": 1,
+      "juz": 30,
+      "page": 602,
+      "sajda": false,
+      "ar": "لِإِيلَٰفِ قُرَيۡشٍ"
+    },
+    {
+      "number": 2,
+      "juz": 30,
+      "page": 602,
+      "sajda": false,
+      "ar": "إِۦلَٰفِهِمۡ رِحۡلَةَ ٱلشِّتَآءِ وَٱلصَّيۡفِ"
+    },
+    {
+      "number": 3,
+      "juz": 30,
+      "page": 602,
+      "sajda": false,
+      "ar": "فَلۡيَعۡبُدُواْ رَبَّ هَٰذَا ٱلۡبَيۡتِ"
+    },
+    {
+      "number": 4,
+      "juz": 30,
+      "page": 602,
+      "sajda": false,
+      "ar": "ٱلَّذِيٓ أَطۡعَمَهُم مِّن جُوعٖ وَءَامَنَهُم مِّنۡ خَوۡفِۭ"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "number": 101,
+  "name": {
+    "ar": "القارعة"
+  },
+  "revelation_place": {
+    "ar": "مكية"
+  },
+  "verses_count": 11,
+  "words_count": 36,
+  "letters_count": 158,
+  "verses": [
+    {
+      "number": 1,
+      "juz": 30,
+      "page": 600,
+      "sajda": false,
+      "ar": "ٱلۡقَارِعَةُ"
+    },
+    {
+      "number": 2,
+      "juz": 30,
+      "page": 600,
+      "sajda": false,
+      "ar": "مَا ٱلۡقَارِعَةُ"
+    },
+    {
+      "number": 3,
+      "juz": 30,
+      "page": 600,
+      "sajda": false,
+      "ar": "وَمَآ أَدۡرَىٰكَ مَا ٱلۡقَارِعَةُ"
+    },
+    {
+      "number": 4,
+      "juz": 30,
+      "page": 600,
+      "sajda": false,
+      "ar": "يَوۡمَ يَكُونُ ٱلنَّاسُ كَٱلۡفَرَاشِ ٱلۡمَبۡثُوثِ"
+    },
+    {
+      "number": 5,
+      "juz": 30,
+      "page": 600,
+      "sajda": false,
+      "ar": "وَتَكُونُ ٱلۡجِبَالُ كَٱلۡعِهۡنِ ٱلۡمَنفُوشِ"
+    },
+    {
+      "number": 6,
+      "juz": 30,
+      "page": 600,
+      "sajda": false,
+      "ar": "فَأَمَّا مَن ثَقُلَتۡ مَوَٰزِينُهُۥ"
+    },
+    {
+      "number": 7,
+      "juz": 30,
+      "page": 600,
+      "sajda": false,
+      "ar": "فَهُوَ فِي عِيشَةٖ رَّاضِيَةٖ"
+    },
+    {
+      "number": 8,
+      "juz": 30,
+      "page": 600,
+      "sajda": false,
+      "ar": "وَأَمَّا مَنۡ خَفَّتۡ مَوَٰزِينُهُۥ"
+    },
+    {
+      "number": 9,
+      "juz": 30,
+      "page": 600,
+      "sajda": false,
+      "ar": "فَأُمُّهُۥ هَاوِيَةٞ"
+    },
+    {
+      "number": 10,
+      "juz": 30,
+      "page": 600,
+      "sajda": false,
+      "ar": "وَمَآ أَدۡرَىٰكَ مَا هِيَهۡ"
+    },
+    {
+      "number": 11,
+      "juz": 30,
+      "page": 600,
+      "sajda": false,
+      "ar": "نَارٌ حَامِيَةُۢ"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "number": 94,
+  "name": {
+    "ar": "الشرح"
+  },
+  "revelation_place": {
+    "ar": "مكية"
+  },
+  "verses_count": 8,
+  "words_count": 27,
+  "letters_count": 102,
+  "verses": [
+    {
+      "number": 1,
+      "juz": 30,
+      "page": 596,
+      "sajda": false,
+      "ar": "أَلَمۡ نَشۡرَحۡ لَكَ صَدۡرَكَ"
+    },
+    {
+      "number": 2,
+      "juz": 30,
+      "page": 596,
+      "sajda": false,
+      "ar": "وَوَضَعۡنَا عَنكَ وِزۡرَكَ"
+    },
+    {
+      "number": 3,
+      "juz": 30,
+      "page": 596,
+      "sajda": false,
+      "ar": "ٱلَّذِيٓ أَنقَضَ ظَهۡرَكَ"
+    },
+    {
+      "number": 4,
+      "juz": 30,
+      "page": 596,
+      "sajda": false,
+      "ar": "وَرَفَعۡنَا لَكَ ذِكۡرَكَ"
+    },
+    {
+      "number": 5,
+      "juz": 30,
+      "page": 596,
+      "sajda": false,
+      "ar": "فَإِنَّ مَعَ ٱلۡعُسۡرِ يُسۡرًا"
+    },
+    {
+      "number": 6,
+      "juz": 30,
+      "page": 596,
+      "sajda": false,
+      "ar": "إِنَّ مَعَ ٱلۡعُسۡرِ يُسۡرٗا"
+    },
+    {
+      "number": 7,
+      "juz": 30,
+      "page": 596,
+      "sajda": false,
+      "ar": "فَإِذَا فَرَغۡتَ فَٱنصَبۡ"
+    },
+    {
+      "number": 8,
+      "juz": 30,
+      "page": 596,
+      "sajda": false,
+      "ar": "وَإِلَىٰ رَبِّكَ فَٱرۡغَب"
+    }
+  ]
+}

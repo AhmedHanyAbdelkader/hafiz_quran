@@ -1,0 +1,56 @@
+{
+  "number": 114,
+  "name": {
+    "ar": "الناس"
+  },
+  "revelation_place": {
+    "ar": "مكية"
+  },
+  "verses_count": 6,
+  "words_count": 20,
+  "letters_count": 80,
+  "verses": [
+    {
+      "number": 1,
+      "juz": 30,
+      "page": 604,
+      "sajda": false,
+      "ar": "قُلۡ أَعُوذُ بِرَبِّ ٱلنَّاسِ"
+    },
+    {
+      "number": 2,
+      "juz": 30,
+      "page": 604,
+      "sajda": false,
+      "ar": "مَلِكِ ٱلنَّاسِ"
+    },
+    {
+      "number": 3,
+      "juz": 30,
+      "page": 604,
+      "sajda": false,
+      "ar": "إِلَٰهِ ٱلنَّاسِ"
+    },
+    {
+      "number": 4,
+      "juz": 30,
+      "page": 604,
+      "sajda": false,
+      "ar": "مِن شَرِّ ٱلۡوَسۡوَاسِ ٱلۡخَنَّاسِ"
+    },
+    {
+      "number": 5,
+      "juz": 30,
+      "page": 604,
+      "sajda": false,
+      "ar": "ٱلَّذِي يُوَسۡوِسُ فِي صُدُورِ ٱلنَّاسِ"
+    },
+    {
+      "number": 6,
+      "juz": 30,
+      "page": 604,
+      "sajda": false,
+      "ar": "مِنَ ٱلۡجِنَّةِ وَٱلنَّاسِ"
+    }
+  ]
+}
