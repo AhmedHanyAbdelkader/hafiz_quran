@@ -217,7 +217,7 @@ class _ScheduleViewState extends State<ScheduleView> {
               mainAxisSize: MainAxisSize.min,
               children: [
                 // States section
-                               // Memorization Status
+                // Memorization Status
                 CheckboxListTile(
                   title: const Text('تم الحفظ'),
                   value: isMemorized,
@@ -226,6 +226,9 @@ class _ScheduleViewState extends State<ScheduleView> {
                       isMemorized = value ?? false;
                       if (isMemorized) {
                         isSkipped = false;
+                      } else {
+                        // Reset rating when unchecked
+                        rating = 0;
                       }
                     });
                   },
@@ -236,15 +239,16 @@ class _ScheduleViewState extends State<ScheduleView> {
                   title: const Text('تخطي اليوم'),
                   value: isSkipped,
                   onChanged: (value) {
-                  widget.scheduleService.rescheduleItem(
-                    itemId,
-                    item.currentDate.add(const Duration(days: 1)),
-                    reason: 'Skipped day',
-                  );
+                    widget.scheduleService.rescheduleItem(
+                      itemId,
+                      item.currentDate.add(const Duration(days: 1)),
+                      reason: 'Skipped day',
+                    );
                     setState(() {
                       isSkipped = value ?? false;
                       if (isSkipped) {
                         isMemorized = false;
+                        rating = 0;
                       }
                     });
                   },
@@ -255,7 +259,16 @@ class _ScheduleViewState extends State<ScheduleView> {
                   title: const Text('غياب'),
                   value: isAbsent,
                   onChanged: (value) {
-                    setState(() => isAbsent = value ?? false);
+                    widget.scheduleService.absentItem(
+                      itemId,
+                      reason: 'absent day',
+                    );
+                    setState(() {
+                      isAbsent = value ?? false;
+                      if (isAbsent) {
+                        rating = 0;
+                      }
+                    });
                   },
                 ),
                 
@@ -280,6 +293,14 @@ class _ScheduleViewState extends State<ScheduleView> {
                   }),
                 ),
                 
+                if (isMemorized && rating == 0)
+                  const Padding(
+                    padding: EdgeInsets.only(top: 8.0),
+                    child: Text(
+                      'يرجى تقييم الحفظ',
+                      style: TextStyle(color: Colors.red),
+                    ),
+                  ),
 
                 // Notes
                 TextField(
@@ -301,6 +322,17 @@ class _ScheduleViewState extends State<ScheduleView> {
             ),
             ElevatedButton(
               onPressed: () {
+                // Validate that rating is provided when memorized
+                if (isMemorized && rating == 0) {
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    const SnackBar(
+                      content: Text('يرجى تقييم الحفظ قبل الحفظ'),
+                      backgroundColor: Colors.red,
+                    ),
+                  );
+                  return;
+                }
+
                 // Update the item with new values
                 item.notes = noteController.text;
                 

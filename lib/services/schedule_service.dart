@@ -38,7 +38,7 @@ class ScheduleService {
     DateTime nextDate = _scheduleItems.last.currentDate;
     do {
       nextDate = nextDate.add(const Duration(days: 1));
-    } while (!_recitationDays.contains(intl.DateFormat('EEEE').format(nextDate)));
+    } while (!_recitationDays.contains(intl.DateFormat( 'EEEE').format(nextDate)));
     
     _scheduleItems.add(ScheduleItem(
       id: _ulid.v4(),
@@ -55,6 +55,33 @@ class ScheduleService {
     }
     
     itemToReschedule.markAsRescheduled(reason: reason);
+  }
+
+    void absentItem(String itemId, {String? reason}) {
+    final itemToReschedule = _scheduleItems.firstWhere((i) => i.id == itemId);
+    final rescheduleIndex = _scheduleItems.indexOf(itemToReschedule);
+    
+    // Add new empty item at the end with next available recitation day
+    DateTime nextDate = _scheduleItems.last.currentDate;
+    do {
+      nextDate = nextDate.add(const Duration(days: 1));
+    } while (!_recitationDays.contains(intl.DateFormat( 'EEEE').format(nextDate)));
+    
+    _scheduleItems.add(ScheduleItem(
+      id: _ulid.v4(),
+      originalDate: nextDate,
+      currentDate: nextDate,
+      verses: [],
+    ));
+    
+    // Copy data from each item to the next one, starting from the end
+    for(int i = _scheduleItems.length - 1; i > rescheduleIndex; i--) {
+      _scheduleItems[i] = _scheduleItems[i].copyWith(
+        verses: List.from(_scheduleItems[i - 1].verses)
+      );
+    }
+    
+    itemToReschedule.markAsSkipped(reason: reason);
   }
 
   // Mark an item as completed
